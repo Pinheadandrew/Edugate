@@ -1,0 +1,169 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.headerbar{
+    position: relative;
+    background: -webkit-linear-gradient(right, bisque , white);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 5px 10px 5px;
+}
+.headerbar p{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+.sidebar-navigation
+{
+    background-color: lightgreen;
+    padding: 20px 5px 20px 5px;
+    height: 85%;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    overflow: auto;
+}
+.sidebar-navigation li{
+    margin-bottom: 10px;
+    margin-left:30px;
+    list-style-type: none;
+    text-align: left;
+    width: 120px;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.5em;
+    border-radius: 3px 3px 3px 3px;
+}
+.sidebar-navigation li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar-navigation li:hover{
+    background-color: #6AD071;
+}
+.maincontent{
+    position: relative;
+    z-index: 2;
+    margin-left: 20px;
+    float: left;
+    overflow-x: visible; 
+    width: 750px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.maincontent ul li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+.maincontent ul li a:focus{
+    text-decoration: none;
+}
+.maincontent p{
+    line-height: 1.5;
+}
+#announcements{
+    width: 500px;
+    background-color: lightgray;
+    padding: 5px;
+}
+#announcements ul{
+    border-top: 2px darkgray solid;
+}
+#announcements ul li{
+   border-bottom: 2px darkgray solid;
+   padding: 5px 3px 5px 3px;
+}
+#announcements li .ann-content{
+    margin: auto;
+    width: 90%;
+    padding: 3px 0px 3px 0px;
+}
+#announcements input[type = text]
+{
+    height: 30px;
+    text-align: left;
+    width: 60%;
+    margin-right: 25px;
+}
+input[type = text], input[type = date]{
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    padding: 2px 4px 2px 4px;
+}
+.generatedtable{
+    border-collapse: collapse;
+}
+.generatedtable tr th{
+    width: 300px;
+    background-color: #302e28;
+    color: white;
+    padding: 7px 0px 7px 0px;
+}
+.generatedtable tr{
+    background-color: floralwhite;
+    border-bottom: 1px solid gray;
+}
+.generatedtable tr:hover{
+    background-color: /*#f9f3e5*;*/ #ede6d5;
+}
+.generatedtable tr td{
+    width: 300px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+#logo{
+    width: 200px;
+    height: 75px;
+}
+#msubanner{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+#logo:hover{
+    box-shadow: 1px 2px 2px 0;
+}
+.managecols{
+    margin-right: 20px;
+    width: 320px;
+    height: 500px;
+    display: inline;
+}
+.courselist{
+    width: 60%;
+    background-color: #dadbd6;
+    padding: 10px;
+}
+.courselist li{
+    margin: auto;
+    width: 96%;
+    background-color: #f3f4ef;
+    padding: 5px 0px 5px 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+.courselist li a{
+    text-decoration: none;
+    color: #F38267;
+}
+.courselist li:hover{
+    background-color: #e2e2de;
+    cursor: default;
+}
+#recasgmts{
+    background-color: white;
+}
+ul{
+    padding: 0;
+}
+#studenttable{
+    position: absolute; 
+    right: 200px; 
+    top: 200px; 
+    width: 300px; 
+    padding-bottom: 50px;
+}
+#studenttable tr td{
+    text-align: center;
+}

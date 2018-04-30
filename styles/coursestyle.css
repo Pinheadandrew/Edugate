@@ -1,0 +1,63 @@
+.course-navigation{
+    font-size: 1.3em;
+    margin-left: 50px;
+    border-bottom: 1px gray dashed;
+}
+.course-navigation ul li{
+    display: inline;
+    margin-left: 10px;
+    padding: 7px 5px 7px 5px;
+    border-radius: 3px 3px 3px 3px;
+}
+.course-navigation ul li:hover{
+    background-color: bisque;
+    text-decoration: none;
+}
+.course-navigation ul li a
+{
+    text-decoration: none;
+    color: #4f9b4f;
+}
+.course-navigation ul li a.selected
+{
+    background-color: bisque;
+}
+.gradesection{
+    padding: 0px 15px 0px 15px;
+    background-color: #4f9b4f;
+}
+.gradesection ul li{
+    line-height: 1;
+    padding: 10px 3px 10px 3px;
+}
+.gradesection ul li table{
+    padding: 7px 10px 7px 10px;
+    width: 97%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.gradesection table input[type = text]{
+    height: 30px;
+    text-align: center;
+    width: 25%;
+    margin-right: 25px;
+}
+.gradesection table td{
+    padding: 5px 10px 5px 10px;
+    width: 33%;
+}
+.gradesection tbody{
+   background-color: beige;
+}
+.headerrow{
+    background-color: yellow;
+}
+#teacherbox{
+    position: absolute;
+    right: -250px;
+    top: 55px;
+    z-index: 3;
+    padding: 5px 50px 50px 10px;
+    border: 2px solid #302e28;
+    border-radius: 20px;
+}

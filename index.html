@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>AndrewSigalasPHP</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #loginbox{
+                width: 450px;
+                height: 250px;
+                text-align: center;
+                margin: 100px auto;
+                background-color: bisque;
+                border-radius: 20px;
+                padding: 10px 20px 10px 20px;
+                -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+               -moz-animation: fadein 2s; /* Firefox < 16 */
+                -ms-animation: fadein 2s; /* Internet Explorer */
+                 -o-animation: fadein 2s; /* Opera < 12.1 */
+                    animation: fadein 2s;
+                }
+
+            @keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+                }
+            #loginbox h2{
+                margin-bottom: 40px;
+                }
+            #loginbox input{
+                margin: 10px 5px 10px 5px;
+                }
+            #loginbox input[type=submit] {
+                padding:5px 15px;
+                cursor:pointer;
+                border-radius: 5px; 
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id= "loginbox">
+            <h2>Welcome to Edugate</h2>
+            <form action= "logincheck.php" method= "post"><table>
+                <tr>
+                    <td>Student ID</td><td><input type= "text" name= "user" size="40" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td><td><input type= "password" name= "password" size="40" /></td>
+                </tr>
+            </table><input type= "submit"  value= "Log in" name="login"/>
+            </form>
+        </div>
+    </body>
+</html>
